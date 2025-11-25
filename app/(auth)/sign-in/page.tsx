@@ -1,7 +1,13 @@
-import React from "react";
+"use client";
 
-const page = () => {
-  return <div>page</div>;
+import { useSession } from "next-auth/react";
+
+const SignIn = () => {
+  const { data: session } = useSession();
+
+  console.log("session data", session);
+
+  return <div>SignIn page</div>;
 };
 
-export default page;
+export default SignIn;
