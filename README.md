@@ -2,6 +2,13 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+This is my first ever learning of NEXTjs from CHAI AUR CODE Hitesh sir.... learning Nextjs workflow then will add my features
+video link:
+```
+  https://www.youtube.com/watch?v=sijpPYDWBg4&list=PLu71SKxNbfoBAaWGtn9GA2PTw0HO0tXzq&index=6
+```
+
+
 First, run the development server:
 
 ```bash
