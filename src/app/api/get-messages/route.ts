@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import UserModel from "@/src/models/User";
 import { authOptions } from "../auth/[...nextauth]/options";
 import dbConnect from "@/src/lib/dbConnect";
@@ -59,5 +60,12 @@ export async function GET(request: Request) {
     );
   } catch (error) {
     console.error("error at getting all messages", error);
+    return Response.json(
+      {
+        success: false,
+        message: "Error getting messages from backend",
+      },
+      { status: 500 }
+    );
   }
 }

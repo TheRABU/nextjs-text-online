@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import UserModel from "@/src/models/User";
 import { authOptions } from "../auth/[...nextauth]/options";
 import dbConnect from "@/src/lib/dbConnect";
